@@ -45,7 +45,8 @@ function AllProduct() {
 export default AllProduct;
 
 const Container = styled.div`
-  height: 90vh;
+  height: auto;
+  min-height: 90vh;
   padding-bottom: 20px;
   padding-top: 50px;
   width: 100%;
