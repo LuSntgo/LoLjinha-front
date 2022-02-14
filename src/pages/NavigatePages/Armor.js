@@ -45,7 +45,8 @@ function ArmorProduct() {
 export default ArmorProduct;
 
 const Container = styled.div`
-  height: 85vh;
+  height: auto;
+  min-height: 90vh;
   padding-top: 90px;
   width: 100%;
   background-color: #e8d8bb;
