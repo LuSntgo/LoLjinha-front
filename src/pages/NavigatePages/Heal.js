@@ -45,7 +45,8 @@ function HealProduct() {
 export default HealProduct;
 
 const Container = styled.div`
-  height: 85vh;
+  height: auto;
+  min-height: 90vh;
   padding-bottom: 390px;
   width: 100%;
   background-color: #e8d8bb;
